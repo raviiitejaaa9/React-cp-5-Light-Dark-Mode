@@ -1,0 +1,61 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.bg-black {
+  width: 26vw;
+  height: 26vh;
+  background-color: black;
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-white {
+  width: 26vw;
+  height: 26vh;
+  background-color: whitesmoke;
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-light {
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+.head-dark {
+  color: black;
+  font-size: 30px;
+}
+
+.button {
+  width: 120px;
+  height: 33px;
+  background-color: whitesmoke;
+  border: 2px black solid;
+  border-radius: 5px;
+}
